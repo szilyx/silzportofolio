@@ -1,0 +1,92 @@
+body{
+    background-image: linear-gradient(to right top, #1f0f6d, #230d65, #260b5e, #270957, #280850, #211b5e, #152a6b, #003876, #00588f, #00769f, #0094a6, #41b1aa);
+    height: 100%;
+}
+#ppicture{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top:100px;
+}
+
+.profile_and_text{
+    display: block;
+}
+
+#profile_desc{
+    color:White;
+    font-family: monospace;
+}
+
+.profile_and_text p{
+    color: white;
+    font-family: monospace;
+    max-width: 300px;
+    font-size: 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.portofolio h1{
+    color:White;
+    font-family: monospace;
+    font-size:40px;
+    justify-content: center;
+    text-align: center;
+    padding-top:100px;
+    padding-bottom:40px;
+}
+
+.portofolio h2{
+    color:White;
+    font-family: monospace;
+    font-size:25px;
+    margin-left:10px;
+}
+
+#carouselExample{
+    width: 900px;
+}
+
+.bigger-projects{
+    display:flex;
+    justify-content: center;
+    padding-bottom:50px;
+}
+.carousel-inner > .item > img {
+    width:640px;
+    height:360px;
+}
+
+.card{
+    margin:30px;
+}
+
+.smaller-projects{
+    margin:200px;
+    margin-top:0px;
+    display: flex;
+    justify-content: center;
+}
+
+.smaller-projects-h1{
+    color:White;
+    font-family: monospace;
+}
+.card-img-top {
+    height: 200px; /* vagy bármilyen más érték, amit szeretnél */
+    width: 100%;
+    object-fit: cover;
+    background-color: rgba(0, 0, 0, 0.527);
+}
+
+#footer-contact h1{
+    color:White;
+    
+}
